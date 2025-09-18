@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth; /* Плавная прокрутка */
+    font-size: 18px; /* Базовый размер шрифта */
+}
+body {
+    font-family: "Arial", "Helvetica", sans-serif;
+
+
+
+
+    background-image: 
+    url('./gtq.png'),
+    url('./https://raspilpodolsk.ru/upload/iblock/6a4/6a45678aa0e79ad42f10d00387960899.jpeg');
+    background-repeat: no-repeat;
+}
+body{
+     background:
+     color(srgb red green blue)
+}
