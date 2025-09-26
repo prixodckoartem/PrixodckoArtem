@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth; 
+    font-size: 25px; 
+}
+body {
+    
+    font-family: "Arial", "Helvetica", sans-serif;
+    background-color: #2e2f38;
+    font-size: 20px;
+    
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    padding: 20px 100px;
+    background-color: #3d474e;
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+.card1{
+    padding: 10px 30px ;
+    background-color: #192230;
+    margin-bottom: 0px;
+
+}
+.hr{
+   
+    background-color: #ffcd00;
+}
+a{
+    color: #ffcd00;
+    
+    
+}
+a:hover{
+    color: #192230;
+}
+p,h2,h1,h3{
+    color: white;
+}
+p{
+    padding: 10px 100px;
+}
+
