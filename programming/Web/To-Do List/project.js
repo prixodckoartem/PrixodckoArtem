@@ -46,12 +46,10 @@ function saveTasks() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
-// Добавление задачи по Enter
 document.getElementById('taskInput').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
         addTask();
     }
 });
 
-// Загружаем задачи при запуске
 renderTasks();
