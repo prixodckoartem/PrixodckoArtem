@@ -81,46 +81,17 @@ button:active {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Контейнер для группировки элементов */
 body {
     flex-direction: column;
     gap: 15px;
 }
 
-/* Адаптивность для мобильных устройств */
-@media (max-width: 600px) {
-    body {
-        padding: 20px;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    input[type="number"] {
-        width: 100px;
-        margin: 5px;
-    }
-    
-    select {
-        margin: 5px;
-    }
-    
-    button {
-        margin: 10px 5px;
-        width: 200px;
-    }
-    
-    .jsoutput {
-        min-width: 150px;
-        font-size: 16px;
-    }
-}
 
-/* Стили для placeholder */
+
 input::placeholder {
     color: #999;
 }
 
-/* Анимация появления результата */
 .jsoutput {
     animation: fadeIn 0.5s ease-in-out;
 }
@@ -136,7 +107,6 @@ input::placeholder {
     }
 }
 
-/* Стили для разных состояний */
 input:invalid {
     border-color: #dc3545;
 }
